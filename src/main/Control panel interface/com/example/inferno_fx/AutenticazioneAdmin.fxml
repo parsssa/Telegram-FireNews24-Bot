@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.inferno_fx.ControllerAdmin">
+   <children>
+
+      <TextField fx:id="usernameBox" layoutX="309.0" layoutY="143.0" prefHeight="25.0" prefWidth="219.0" promptText="\@esempio_id_telegram">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></TextField>
+      <Text fill="WHITE" layoutX="311.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="passwordBox" layoutX="309.0" layoutY="206.0" prefHeight="25.0" prefWidth="219.0" />
+      <Text fill="WHITE" layoutX="311.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+         <font>
+            <Font name="Consolas" size="12.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="LogoFire" fitHeight="207.0" fitWidth="282.0" layoutX="14.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@variLogo/powder-blue-designify.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="copyright" fill="WHITE" layoutX="14.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FireNews24 e' un marchio di PROGETTAZZO inc" wrappingWidth="150.0">
+         <font>
+            <Font name="Franklin Gothic Book" size="8.0" />
+         </font>
+      </Text>
+      <Text layoutX="313.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Button layoutX="309.0" layoutY="257.0" mnemonicParsing="false" onAction="#switchToUserManager" text="Procedi" />
+      <Label layoutX="243.0" layoutY="66.0" text="AUTENTICAZIONE ADMIN">
+         <font>
+            <Font name="Consolas" size="30.0" />
+         </font>
+      </Label>
+      <Text fx:id="inputSbagliato" fill="#eb0808" layoutX="313.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Text fx:id="asteriscoUsername" fill="#ee1919" layoutX="301.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="asteriscoPassword" fill="#ee1919" layoutX="299.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+   </children>
+</AnchorPane>

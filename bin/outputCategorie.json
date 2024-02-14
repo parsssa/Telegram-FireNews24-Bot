@@ -1,0 +1,12 @@
+{
+  "titolo": "Sport",
+  "link": [
+    "https://www.ansa.it/sito/notizie/sport/sport_rss.xml",
+    "https://www.gazzetta.it/rss/home.xml"
+  ]
+}{
+  "titolo": "Politica",
+  "link": [
+    "https://www.ansa.it/sito/notizie/politica/politica_rss.xml"
+  ]
+}
