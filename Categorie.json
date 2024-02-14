@@ -1,0 +1,7 @@
+{
+  "Sport": ["https://www.ansa.it/sito/notizie/sport/sport_rss.xml"],
+  "Spettacolo": ["https://www.ansa.it/sito/notizie/cultura/cinema/cinema_rss.xml"],
+  "Politica" :["https://www.ansa.it/sito/notizie/politica/politica_rss.xml"],
+  "Economia": ["https://www.ansa.it/sito/notizie/economia/economia_rss.xml"],
+  "Tech": ["https://www.ansa.it/sito/notizie/tecnologia/tecnologia_rss.xml"]
+}
